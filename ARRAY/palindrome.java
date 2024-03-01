@@ -5,24 +5,24 @@ package ARRAY;
  */
 public class palindrome {
     // write approach second
-// static void ArrayPalindrome(int arr[],int leng){
-//     // System.out.println(arr[0]);
-//     int flag=0;
+static void ArrayPalindrome(int arr[],int leng){
+    // System.out.println(arr[0]);
+    int flag=0;
         
-//         for(int i=0;i<leng/2;i++){
-//             if (arr[i]!=arr[leng-1-i]) {
-//                 flag=1;
-//                 System.out.println("not palindrome");
-//                 break;
+        for(int i=0;i<leng/2;i++){
+            if (arr[i]!=arr[leng-1-i]) {
+                flag=1;
+                System.out.println("not palindrome");
+                break;
                 
-//             }
+            }
     
-//         }
-//         if (flag==0) {
+        }
+        if (flag==0) {
             
-//             System.out.println("array given value is a palindrome");
-//         }
-//     }
+            System.out.println("array given value is a palindrome");
+        }
+    }
  
 // write approach one
 // static void ArrayPalindrome(int arr[],int len){
@@ -46,6 +46,6 @@ public class palindrome {
         int arr[]={1,2,10,4,1};
         // System.out.println(arr[0]);
         int n=arr.length;
-        ArrayPalindrome(arr,n);
+        // ArrayPalindrome(arr,n);
     }
 }
