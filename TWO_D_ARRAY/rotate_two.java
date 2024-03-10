@@ -1,4 +1,4 @@
-package ARRAY;
+package TWO_D_ARRAY;
 
 import java.util.Arrays;
 

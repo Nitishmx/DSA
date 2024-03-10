@@ -1,7 +1,11 @@
-package ARRAY;
+package TWO_D_ARRAY;
 
 import java.util.Scanner;
-
+// 1 1 1 1
+// 1 1 1 1
+// 1 1 1 1
+// 1 1 1 1
+// (2,2),(3,3)
 public class Prifix_sum {
     static int  PrefixSum(int arr[][],int row1,int c1,int row2,int c2){
         int sum=0;
@@ -23,7 +27,7 @@ public class Prifix_sum {
         int arra[][]=new int[m][n];
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
-                // System.out.println("j    fj");
+                // System.out.println("jfj");
                 arra[i][j]=scan.nextInt();
             }
         }
