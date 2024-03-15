@@ -1,6 +1,8 @@
 package ARRAY_QUESTION;
 
 import java.util.Arrays;
+// Timepmplexity=O(n)
+// Spacecomplexity=O(1)
 
 // 6.	WAP to reverse an array
 public class Ques6 {
