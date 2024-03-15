@@ -1,7 +1,7 @@
 package BinarySearch;
-
 import java.util.Scanner;
-
+// Time complexity=O(logn)
+// space complexity=O(1)
 public class binary {
     public static int BinarySearch(int arr[],int target){
         int low=0;
@@ -39,6 +39,7 @@ public class binary {
             
         }
         scan.close();
+      
     }
     
 }
