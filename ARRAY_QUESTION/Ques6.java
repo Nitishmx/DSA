@@ -1,5 +1,5 @@
 package ARRAY_QUESTION;
-
+// import 
 import java.util.Arrays;
 // Timepmplexity=O(n)
 // Spacecomplexity=O(1)
@@ -16,6 +16,8 @@ public class Ques6 {
     }
     public static void main(String[] args) {
         int arr[]={10,10,80,30,60,3,2};
+        // int a=Integer.MIN_VALUE;
+        // System.out.println("value of min"+a);
         int length=arr.length;
         arrayReverse(arr,length);
         System.out.println(Arrays.toString(arr));

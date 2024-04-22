@@ -1,5 +1,3 @@
-// package L_B_DSA.BINARY_DECIMAL;
-
 import java.util.Scanner;
 import java.lang.Math;
 public class binary{
@@ -15,9 +13,7 @@ public class binary{
             n=n>>1;
             // double pw=Math.pow(10,i);
             ans=(bit *Math.pow(10,i)+ans);
-            i++;
-            
-            
+            i++; 
         }
         System.out.println(ans);
     }
